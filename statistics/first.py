@@ -6,3 +6,5 @@ data = [2, 4, 4, 4, 5, 7, 9]
 print("Mean:", mean(data))
 print("Median:", median(data))
 print("Mode:", mode(data))
+print("Variance:", np.var(data))
+print("Standard Deviation:", np.std(data))
